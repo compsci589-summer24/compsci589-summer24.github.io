@@ -10,6 +10,19 @@ img {
   object-fit: cover;
 }
 
+/* BULMA */
+.section {
+  max-width: 1400px;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.navbar > .navbar-menu {
+  max-width: 1260px;
+}
+
 /* CUSTOM */
 .is-120x150 {
   width: 120px;
@@ -23,14 +36,11 @@ img {
 
 .columns-reversed {
   display: flex;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 1024px) {
   .columns-reversed.is-desktop {
       display: block;
   }
-}
-
-.section {
-  max-width: 1400px;
 }
