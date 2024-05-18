@@ -2,6 +2,6 @@
 
 ---
 
-Professor: [Subhransu Maji](https://www.cics.umass.edu/people/gan-chuang)
+Professor: [Chuang Gan](https://www.cics.umass.edu/people/gan-chuang)
 
 Website: 
