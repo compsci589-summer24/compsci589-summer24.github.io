@@ -2,6 +2,10 @@
   --bulma-family-primary: 'IBM Plex Sans', sans-serif;
 }
 
+main {
+  min-height: calc(100dvh - 244px);
+}
+
 img {
   object-fit: cover;
 }
@@ -25,4 +29,8 @@ img {
   .columns-reversed.is-desktop {
       display: block;
   }
+}
+
+.section {
+  max-width: 1400px;
 }
