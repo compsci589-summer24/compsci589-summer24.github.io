@@ -1,0 +1,28 @@
+:root {
+  --bulma-family-primary: 'IBM Plex Sans', sans-serif;
+}
+
+img {
+  object-fit: cover;
+}
+
+/* CUSTOM */
+.is-120x150 {
+  width: 120px;
+  height: 150px;
+}
+
+.is-240x300 {
+  width: 240px;
+  height: 300px;
+}
+
+.columns-reversed {
+  display: flex;
+}
+
+@media screen and (min-width: 1024px) {
+  .columns-reversed.is-desktop {
+      display: block;
+  }
+}
