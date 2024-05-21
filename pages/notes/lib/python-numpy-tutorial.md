@@ -1,32 +1,3 @@
----
-layout: page
-title: Python Numpy Tutorial (with Jupyter and Colab)
-permalink: /notes/python-numpy-tutorial/
----
-
-<!--
-Python:
-  Simple data types
-    integer, float, string
-  Compound data types
-    tuple, list, dictionary, set
-  Flow control
-    if, while, for, try, with
-  Comprehensions, generators
-  Functions
-  Classes
-  Standard library
-    json, collections, itertools
-
-Numpy
--->
-
-<div>
-  <a href="https://colab.research.google.com/github/compsci682-fa21/compsci682-fa21.github.io/blob/main/colab_tutorial.ipynb" target="_blank">
-    <img class="colab-badge" src="{{site.baseurl}}/assets/badges/colab-open.svg" alt="Colab Notebook"/>
-  </a>
-</div>
-
 This tutorial was contributed by [Justin Johnson](https://web.eecs.umich.edu/~justincj/).
 
 We will use the Python programming language for all assignments in this course.
@@ -90,10 +61,10 @@ and benefits from free access to hardware accelerators like GPUs and TPUs (with 
 
 **Run Tutorial in Colab (recommended)**. If you wish to run this tutorial entirely in Colab, click the `Open in Colab` badge at the very top of this page.
 
-**Run Tutorial in Jupyter Notebook**. If you wish to run the notebook locally with Jupyter, make sure your virtual environment is installed correctly (as per the [setup instructions]({{site.baseurl}}/setup-instructions/)), activate it, then run `pip install notebook` to install Jupyter notebook. Next, [open the notebook](https://raw.githubusercontent.com/compsci682-fa21/compsci682-fa21.github.io/master/jupyter-notebook-tutorial.ipynb) and download it to a directory of your choice by right-clicking on the page and selecting `Save Page As`. Then `cd` to that directory and run `jupyter notebook`.
+**Run Tutorial in Jupyter Notebook**. If you wish to run the notebook locally with Jupyter, make sure your virtual environment is installed correctly (as per the [setup instructions](/setup-instructions/)), activate it, then run `pip install notebook` to install Jupyter notebook. Next, [open the notebook](https://raw.githubusercontent.com/compsci682-fa21/compsci682-fa21.github.io/master/jupyter-notebook-tutorial.ipynb) and download it to a directory of your choice by right-clicking on the page and selecting `Save Page As`. Then `cd` to that directory and run `jupyter notebook`.
 
 <div class='fig figcenter'>
-  <img src='{{site.baseurl}}/assets/ipython-tutorial/file-browser.png'>
+  <img src='../lib/images/file-browser.png'>
 </div>
 
 This should automatically launch a notebook server at `http://localhost:8888`.
@@ -992,7 +963,7 @@ Here is a simple example that showcases these functions:
 from scipy.misc import imread, imsave, imresize
 
 # Read an JPEG image into a numpy array
-img = imread('assets/cat.jpg')
+img = imread('../lib/images/cat.jpg')
 print img.dtype, img.shape  # Prints "uint8 (400, 248, 3)"
 
 # We can tint the image by scaling each of the color channels
@@ -1007,12 +978,12 @@ img_tinted = img * [1, 0.95, 0.9]
 img_tinted = imresize(img_tinted, (300, 300))
 
 # Write the tinted image back to disk
-imsave('assets/cat_tinted.jpg', img_tinted)
+imsave('../lib/images/cat_tinted.jpg', img_tinted)
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='{{site.baseurl}}/assets/cat.jpg'>
-  <img src='{{site.baseurl}}/assets/cat_tinted.jpg'>
+  <img src='../lib/images/cat.jpg'>
+  <img src='../lib/images/cat_tinted.jpg'>
   <div class='figcaption'>
     Left: The original image.
     Right: The tinted and resized image.
@@ -1090,7 +1061,7 @@ plt.show()  # You must call plt.show() to make graphics appear.
 Running this code produces the following plot:
 
 <div class='fig figcenter fighighlight'>
-  <img src='{{site.baseurl}}/assets/sine.png'>
+  <img src='../lib/images/sine.png'>
 </div>
 
 With just a little bit of extra work we can easily plot multiple lines
@@ -1115,7 +1086,7 @@ plt.legend(['Sine', 'Cosine'])
 plt.show()
 ```
 <div class='fig figcenter fighighlight'>
-  <img src='{{site.baseurl}}/assets/sine_cosine.png'>
+  <img src='../lib/images/sine_cosine.png'>
 </div>
 
 You can read much more about the `plot` function
@@ -1154,7 +1125,7 @@ plt.show()
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='{{site.baseurl}}/assets/sine_cosine_subplot.png'>
+  <img src='../lib/images/sine_cosine_subplot.png'>
 </div>
 
 You can read much more about the `subplot` function
@@ -1170,7 +1141,7 @@ import numpy as np
 from scipy.misc import imread, imresize
 import matplotlib.pyplot as plt
 
-img = imread('assets/cat.jpg')
+img = imread('../lib/images/cat.jpg')
 img_tinted = img * [1, 0.95, 0.9]
 
 # Show the original image
@@ -1188,5 +1159,5 @@ plt.show()
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='{{site.baseurl}}/assets/cat_tinted_imshow.png'>
+  <img src='../lib/images/cat_tinted_imshow.png'>
 </div>
