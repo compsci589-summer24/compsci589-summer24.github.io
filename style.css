@@ -25,6 +25,7 @@ img {
 
 .navbar > .navbar-menu {
   max-width: 1260px;
+  box-shadow: none;
 }
 
 /* CUSTOM */
