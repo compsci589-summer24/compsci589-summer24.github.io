@@ -15,6 +15,10 @@ img {
   max-width: 1400px;
 }
 
+.content {
+  --bulma-content-block-margin-bottom: 1em;
+}
+
 .navbar {
   justify-content: center;
 }
