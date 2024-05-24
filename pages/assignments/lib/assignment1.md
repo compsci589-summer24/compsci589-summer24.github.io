@@ -4,7 +4,7 @@ mathjax: true
 permalink: /assignments/doc/assignment1/
 --- -->
 
-Get the code as a zip file [here](https://github.com/compsci589-summer24/compsci589-summer24.github.io/raw/main/pages/assignments/doc/assignment1_cs589.zip). 
+Get the code as a zip file [here](https://github.com/compsci589-summer24/compsci589-summer24.github.io/raw/main/pages/assignments/lib/assignment1_cs589.zip). 
 
 - [Setup](#setup)
 - [Goals](#goals)
