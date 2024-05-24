@@ -1,17 +1,10 @@
-<!-- ---
-layout: page
-title: Software Setup
-permalink: /setup-instructions/
---- -->
-
-This year, the recommended way to work on assignments is through [Google Colaboratory](https://colab.research.google.com/). However, if you already own GPU-backed hardware and would prefer to work locally, we provide you with instructions for setting up a virtual environment.
+We recommend working with [Google Colaboratory](https://colab.research.google.com/). However, if you already own GPU-backed hardware and would prefer to work locally, we provide you with instructions for setting up a virtual environment.
 
 - [Working remotely on Google Colaboratory](#working-remotely-on-google-colaboratory)
 - [Working locally on your machine](#working-locally-on-your-machine)
   - [Anaconda virtual environment](#anaconda-virtual-environment)
   - [Manual install, virtual environment](#manual-install-virtual-environment)
   - [Installing packages](#installing-packages)
-  - [Jupyter Notebook Tutorial](#jupyter-setup)
 
 ### [Working remotely on Google Colaboratory](#working-remotely-on-google-colaboratory)
 
@@ -33,7 +26,7 @@ One you successfully install Colab, you can right click on your notebooks and op
 
 **Workflow**. Every assignment provides you with a download link to a zip file containing Colab notebooks and Python starter code. You can upload the folder to Drive, open the notebooks in Colab and work on them, then save your progress back to Drive. We encourage you to watch the tutorial video below which covers the recommended workflow using assignment 1 as an example.
 
-<u> The video is made specific to Standford CS231n and can be adapted to our course</u>
+<i>The video is made specific to Standford CS231n and can be adapted to our course</i>
 
 <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/IZUz4pRYlus" frameborder="0" allowfullscreen></iframe>
 
@@ -142,78 +135,4 @@ cd assignment1  # cd to the assignment directory
 pip install -r requirements.txt
 ```
 
-<a name='jupyter-setup'></a>
-#### [Jupyter Setup](#jupyter-setup)
-
-In this class, you may use [Jupyter Notebook](http://jupyter.org/) to work on the
-programming assignments locally. A Jupyter notebook lets you write and execute Python
-code in your web browser. Jupyter notebooks make it very easy to tinker with
-code and execute it in bits and pieces; for this reason Jupyter notebooks are
-widely used in scientific computing.
-
-Installing and running Jupyter is easy. From the command line, the following
-will install Jupyter:
-
-```
-pip install jupyter
-```
-
-Or the following if you use conda/Anaconda: 
-
-```
-conda install jupyter
-```
-
-Once you have Jupyter installed, start it with this command:
-
-```
-jupyter notebook
-```
-
-Once Jupyter is running, point your web browser at http://localhost:8888 to
-start using Jupyter notebooks. If everything worked correctly, you should
-see a screen like this, showing all available Jupyter notebooks in the current
-directory:
-
-<div class='fig figcenter'>
-  <img src='./lib/images/file-browser.png'>
-</div>
-
-If you click through to a notebook file, you will see a screen like this:
-
-<div class='fig figcenter'>
-  <img src='./lib/images/notebook-1.png'>
-</div>
-
-A Jupyter notebook is made up of a number of **cells**. Each cell can contain
-Python code. You can execute a cell by clicking on it and pressing `Shift-Enter`.
-When you do so, the code in the cell will run, and the output of the cell
-will be displayed beneath the cell. For example, after running the first cell
-the notebook looks like this:
-
-<div class='fig figcenter'>
-  <img src='./lib/images/notebook-2.png'>
-</div>
-
-Global variables are shared between cells. Executing the second cell thus gives
-the following result:
-
-<div class='fig figcenter'>
-  <img src='./lib/images/notebook-3.png'>
-</div>
-
-By convention, Jupyter notebooks are expected to be run from top to bottom.
-Failing to execute some cells or executing cells out of order can result in
-errors:
-
-<div class='fig figcenter'>
-  <img src='https://compsci589-summer24.github.io/pages/setup-instructions/lib/images/notebook-error.png'>
-</div>
-
-After you have modified a Jupyter notebook for one of the assignments by
-modifying or executing some of its cells, remember to **save your changes!**
-
-This has only been a brief introduction to Jupyter Notebook, but it should
-be enough to get you up and running on the assignments for this course. Check out 
-[these notebooks](http://nbviewer.jupyter.org/github/jupyter/notebook/tree/master/docs/source/examples/Notebook/) 
-if you want to learn more. 
+If you are not familiar with using Jupyter Notebook, please check out the [tutorial page](/pages/notes/doc/jupyter-tutorial.html).

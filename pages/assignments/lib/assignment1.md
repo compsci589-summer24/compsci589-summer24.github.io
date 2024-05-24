@@ -1,12 +1,7 @@
-<!-- ---
-layout: page
-mathjax: true
-permalink: /assignments/doc/assignment1/
---- -->
+# Assignment 1
+📁 [Starter code](https://github.com/compsci589-summer24/compsci589-summer24.github.io/raw/main/pages/assignments/lib/assignment1_cs589.zip)
 
-
-Get the code as a zip file [here](https://github.com/compsci589-summer24/compsci589-summer24.github.io/raw/main/pages/assignments/lib/assignment1_cs589.zip). 
-
+## Table of contents
 - [Setup](#setup)
 - [Goals](#goals)
 - [Q1: k-Nearest Neighbor classifier](#q1-k-nearest-neighbor-classifier)
@@ -17,7 +12,7 @@ Get the code as a zip file [here](https://github.com/compsci589-summer24/compsci
 
 ### [Setup](#setup)
 
-Please familiarize yourself with the [recommended workflow](/pages/setup-instructions/index.html#working-remotely-on-google-colaboratory) before starting the assignment. 
+Please familiarize yourself with the [recommended workflow](/pages/notes/doc/setup-instructions.html) before starting the assignment. 
 
 The assignment would be using Python = 3.10
 
@@ -50,7 +45,7 @@ cd ./cs682/datasets
 **Jupyter Notebook:**
 After you have the CIFAR-10 data, if you are not using colab you should start the Jupyter Notebook server from the
 `assignment1` directory. If you are unfamiliar with Jupyter, you should read our
-[Jupyter tutorial](https://compsci589-summer24.github.io/pages/setup-instructions/index.html#jupyter-setup).
+[Jupyter tutorial](/pages/notes/doc/jupyter-tutorial.html).
 
 **NOTE:** If you are working in a virtual environment on OSX, you may encounter
 errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). You can work around this issue by starting the Jupyter server using the `start_jupyter_osx.sh` script from the `assignment1` directory; the script assumes that your virtual environment is named `.env`.
@@ -59,15 +54,14 @@ errors with matplotlib due to the [issues described here](http://matplotlib.org/
 
 In this assignment you will practice putting together a simple image classification pipeline, based on the k-Nearest Neighbor or the SVM/Softmax classifier. The goals of this assignment are as follows:
 
-- understand the basic **Image Classification pipeline** and the data-driven approach (train/predict stages)
-- understand the train/val/test **splits** and the use of validation data for **hyperparameter tuning**.
-- develop proficiency in writing efficient **vectorized** code with numpy
-- implement and apply a k-Nearest Neighbor (**kNN**) classifier
-- implement and apply a Multiclass Support Vector Machine (**SVM**) classifier
-- implement and apply a **Softmax** classifier
-- implement and apply a **Two layer neural network** classifier
-- understand the differences and tradeoffs between these classifiers
-- get a basic understanding of performance improvements from using **higher-level representations** than raw pixels (e.g. color histograms, Histogram of Gradient (HOG) features)
+- Understand the basic **Image Classification pipeline** and the data-driven approach (train/predict stages)
+- Understand the train/val/test **splits** and the use of validation data for **hyperparameter tuning**.
+- Develop proficiency in writing efficient **vectorized** code with numpy
+- Implement and apply a k-Nearest Neighbor (**kNN**) classifier
+- Implement and apply a Multiclass Support Vector Machine (**SVM**) classifier
+- Implement and apply a **Softmax** classifier
+- Understand the differences and tradeoffs between these classifiers
+- Get a basic understanding of performance improvements from using **higher-level representations** than raw pixels (e.g. color histograms, Histogram of Gradient (HOG) features)
 
 ### [Q1: k-Nearest Neighbor classifier (30 points)](#q1-k-nearest-neighbor-classifier-20-points)
 

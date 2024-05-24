@@ -2,6 +2,11 @@
   --bulma-family-primary: 'IBM Plex Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
 main {
   min-height: calc(100dvh - 244px);
 }
