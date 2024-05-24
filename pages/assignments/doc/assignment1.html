@@ -14,12 +14,18 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
 
-    <title>Lectures - COMPSCI 589: Machine Learning</title>
+    <title>Assignment 1 - COMPSCI 589: Machine Learning</title>
 
-    <script src="../../script/navbar.js" defer></script>
+    <script src="../../../script/navbar.js" defer></script>
     <script src="https://cdn.tailwindcss.com" defer></script>
 
-    <link rel="icon" href="../../assets/favicon.ico" type="image/x-icon" />
+    <!-- Import element definition and auto-register -->
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/zero-md@3?register"
+    ></script>
+
+    <link rel="icon" href="../../../assets/favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css"
@@ -32,7 +38,7 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../style.css" />
+    <link rel="stylesheet" href="../../../style.css" />
   </head>
   <body class="has-navbar-fixed-top">
     <!-- NAVBAR -->
@@ -69,32 +75,27 @@
 
     <!-- PAGE CONTENT -->
     <main class="section mx-auto content">
-      <h1>Assignments</h1>
-      <table class="table is-striped is-fullwidth">
-        <thead>
-          <tr>
-            <th>Assignment</th>
-            <th>Due date</th>
-            <th>Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <a href="./doc/assignment1.html" class="text-indigo-400 hover:underline">Assignment 1</a>
-            </td>
-            <td>June 1</td>
-            <td>Image Classification, kNN, SVM, Softmax, Neural Network</td>
-          </tr>
-        </tbody>
-      </table>
+      <h1>Assignment 1</h1>
+      <zero-md src="../lib/assignment1.md" class="mt-8">
+        <template data-append>
+          <style>
+            .markdown-body {
+              --color-canvas-default: transparent;
+            }
+
+            .markdown-body a {
+              color: #818CF8;
+            }
+          </style>
+        </template>
+      </zero-md>
     </main>
 
     <!-- FOOTER -->
     <footer class="footer">
       <div class="max-w-[1400px] mx-auto">
         <a
-          href="https://github.com/compsci589-summer24"
+          href="https://github.com/cvl-umass/compsci682-fall-2023"
           class="flex gap-2"
         >
           <span class="icon github">
