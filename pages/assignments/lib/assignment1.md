@@ -73,11 +73,11 @@ In this assignment you will practice putting together a simple image classificat
 
 The Notebook **knn.ipynb** will walk you through implementing the kNN classifier.
 
-### [Q2: Training a Support Vector Machine (25 points)](#q2-training-a-support-vector-machine)
+### [Q2: Training a Support Vector Machine (35 points)](#q2-training-a-support-vector-machine)
 
 The Notebook **svm.ipynb** will walk you through implementing the SVM classifier.
 
-### [Q3: Implement a Softmax classifier (20 points)](#q3-implement-a-softmax-classifier)
+### [Q3: Implement a Softmax classifier (35 points)](#q3-implement-a-softmax-classifier)
 
 The Notebook **softmax.ipynb** will walk you through implementing the Softmax classifier.
 
