@@ -9,7 +9,7 @@ This year, the recommended way to work on assignments is through [Google Colabor
 - [Working remotely on Google Colaboratory](#working-remotely-on-google-colaboratory)
 - [Working locally on your machine](#working-locally-on-your-machine)
   - [Anaconda virtual environment](#anaconda-virtual-environment)
-  - [Manual install, virtual environment](#Manual install, virtual environment)
+  - [Manual install, virtual environment](#manual-install-virtual-environment)
   - [Installing packages](#installing-packages)
   - [Jupyter Notebook Tutorial](#jupyter-setup)
 
@@ -78,7 +78,7 @@ You may refer to [this page](https://docs.conda.io/projects/conda/en/latest/user
 
 <a name='venv'></a>
 
-#### Manual install, virtual environment
+#### [Manual install, virtual environment](#manual-install-virtual-environment)
 If you'd like to (instead of Anaconda) go with a more manual and risky installation route you will likely want to create a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for the project. If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine. To set up a virtual environment, run the following:
 
 **For Linux / MacOS**
