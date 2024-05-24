@@ -1,9 +1,3 @@
----
-layout: page
-title: Jupyter Notebook Tutorial
-permalink: /notes/jupyter-tutorial/
----
-
 In this class, you may use [Jupyter Notebook](http://jupyter.org/) for the
 programming assignments. A Jupyter notebook lets you write and execute Python
 code in your web browser. Jupyter notebooks make it very easy to tinker with
@@ -35,13 +29,13 @@ see a screen like this, showing all available Jupyter notebooks in the current
 directory:
 
 <div class='fig figcenter'>
-  <img src='{{site.baseurl}}/assets/ipython-tutorial/file-browser.png'>
+  <img src='../lib/images/file-browser.png'>
 </div>
 
 If you click through to a notebook file, you will see a screen like this:
 
 <div class='fig figcenter'>
-  <img src='{{site.baseurl}}/assets/ipython-tutorial/notebook-1.png'>
+  <img src='../lib/images/notebook-1.png'>
 </div>
 
 A Jupyter notebook is made up of a number of **cells**. Each cell can contain
@@ -51,14 +45,14 @@ will be displayed beneath the cell. For example, after running the first cell
 the notebook looks like this:
 
 <div class='fig figcenter'>
-  <img src='{{site.baseurl}}/assets/ipython-tutorial/notebook-2.png'>
+  <img src='../lib/images/notebook-2.png'>
 </div>
 
 Global variables are shared between cells. Executing the second cell thus gives
 the following result:
 
 <div class='fig figcenter'>
-  <img src='{{site.baseurl}}/assets/ipython-tutorial/notebook-3.png'>
+  <img src='../lib/images/notebook-3.png'>
 </div>
 
 By convention, Jupyter notebooks are expected to be run from top to bottom.
@@ -66,7 +60,7 @@ Failing to execute some cells or executing cells out of order can result in
 errors:
 
 <div class='fig figcenter'>
-  <img src='{{site.baseurl}}/assets/ipython-tutorial/notebook-error.png'>
+  <img src='../lib/images/notebook-error.png'>
 </div>
 
 After you have modified a Jupyter notebook for one of the assignments by

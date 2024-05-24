@@ -17,7 +17,7 @@ Get the code as a zip file [here](https://github.com/compsci589-summer24/compsci
 
 ### [Setup](#setup)
 
-Please familiarize yourself with the [recommended workflow](https://compsci589-summer24.github.io/pages/setup-instructions/index.html#working-remotely-on-google-colaboratory) before starting the assignment. 
+Please familiarize yourself with the [recommended workflow](/pages/setup-instructions/index.html#working-remotely-on-google-colaboratory) before starting the assignment. 
 
 The assignment would be using Python = 3.10
 
