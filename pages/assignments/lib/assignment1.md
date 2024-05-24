@@ -50,7 +50,7 @@ cd ./cs682/datasets
 **Jupyter Notebook:**
 After you have the CIFAR-10 data, if you are not using colab you should start the Jupyter Notebook server from the
 `assignment1` directory. If you are unfamiliar with Jupyter, you should read our
-[Jupyter tutorial]({{site.baseurl}}/setup-instructions/#jupyter-setup).
+[Jupyter tutorial](https:/compsci589-summer24.github.io/pages/setup-instructions/#jupyter-setup).
 
 **NOTE:** If you are working in a virtual environment on OSX, you may encounter
 errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). You can work around this issue by starting the Jupyter server using the `start_jupyter_osx.sh` script from the `assignment1` directory; the script assumes that your virtual environment is named `.env`.
