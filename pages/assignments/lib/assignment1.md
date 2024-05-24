@@ -4,7 +4,7 @@
 ## Table of contents
 - [Setup](#setup)
 - [Goals](#goals)
-- [Q1: k-Nearest Neighbor classifier](#q1-k-nearest-neighbor-classifier)
+- [Q1: k-Nearest Neighbor classifier](#q1-k-nearest-neighbor-classifier-30-points)
 - [Q2: Training a Support Vector Machine](#q2-training-a-support-vector-machine)
 - [Q3: Implement a Softmax classifier](#q3-implement-a-softmax-classifier)
 - [Submitting your work](#submitting-your-work)
@@ -63,15 +63,15 @@ In this assignment you will practice putting together a simple image classificat
 - Understand the differences and tradeoffs between these classifiers
 - Get a basic understanding of performance improvements from using **higher-level representations** than raw pixels (e.g. color histograms, Histogram of Gradient (HOG) features)
 
-### [Q1: k-Nearest Neighbor classifier (30 points)](#q1-k-nearest-neighbor-classifier)
+### [Q1: k-Nearest Neighbor classifier (30 points)](#q1-k-nearest-neighbor-classifier-30-points)
 
 The Notebook **knn.ipynb** will walk you through implementing the kNN classifier.
 
-### [Q2: Training a Support Vector Machine (35 points)](#q2-training-a-support-vector-machine)
+### [Q2: Training a Support Vector Machine (35 points)](#q2-training-a-support-vector-machine-35-points)
 
 The Notebook **svm.ipynb** will walk you through implementing the SVM classifier.
 
-### [Q3: Implement a Softmax classifier (35 points)](#q3-implement-a-softmax-classifier)
+### [Q3: Implement a Softmax classifier (35 points)](#q3-implement-a-softmax-classifier-35-points)
 
 The Notebook **softmax.ipynb** will walk you through implementing the Softmax classifier.
 
