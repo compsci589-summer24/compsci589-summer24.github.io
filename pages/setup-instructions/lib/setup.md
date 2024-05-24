@@ -13,7 +13,7 @@ This year, the recommended way to work on assignments is through [Google Colabor
   - [Installing packages](#installing-packages)
   - [Jupyter Notebook Tutorial](#jupyter-setup)
 
-### Working remotely on Google Colaboratory
+### [Working remotely on Google Colaboratory](#working-remotely-on-google-colaboratory)
 
 Google Colaboratory is basically a combination of Jupyter notebook and Google Drive. It runs entirely in the cloud and comes
 preinstalled with many packages (e.g. PyTorch and Tensorflow) so everyone has access to the same
@@ -47,10 +47,10 @@ If you're interested in learning more about Colab, we encourage you to visit the
 * [Welcome to Colab](https://colab.research.google.com/notebooks/intro.ipynb)
 * [Overview of Colab Features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
 
-### Working locally on your machine
+### [Working locally on your machine](#working-locally-on-your-machine)
 If you do not want to use Google Colaboratory and wish to work locally, you should use a virtual environment. You can install one via Anaconda (recommended) or via Python's native `virtualenv` module. Ensure you are using Python 3.10 as **we are no longer supporting Python 2**.
 
-#### Anaconda virtual environment
+#### [Anaconda virtual environment](#anaconda-virtual-environment)
 We strongly recommend using the free [Anaconda Python distribution](https://www.anaconda.com/download/), which provides an easy way for you to handle package dependencies. Please be sure to download the Python 3 version, which currently installs Python 3.10. The neat thing about Anaconda is that it ships with [MKL optimizations](https://docs.anaconda.com/mkl-optimizations/) by default, which means your `numpy` and `scipy` code benefit from significant speed-ups without having to change a single line of code.
 
 Once you have Anaconda installed, it makes sense to create a virtual environment for the course. If you choose not to use a virtual environment (strongly not recommended!), it is up to you to make sure that all dependencies for the code are installed globally on your machine. To set up a virtual environment called `compsci682`, run the following in your terminal:
@@ -126,7 +126,7 @@ which python
 ``` -->
 
 <a name='packages'></a>
-#### Installing packages
+#### [Installing packages](#installing-packages)
 
 Once you've **setup** and **activated** your virtual environment (via `conda` or `venv`), you should install the libraries needed to run the assignments using `pip`. To do so, run:
 
@@ -143,7 +143,7 @@ pip install -r requirements.txt
 ```
 
 <a name='jupyter-setup'></a>
-#### Jupyter Setup
+#### [Jupyter Setup](#jupyter-setup)
 
 In this class, you may use [Jupyter Notebook](http://jupyter.org/) to work on the
 programming assignments locally. A Jupyter notebook lets you write and execute Python

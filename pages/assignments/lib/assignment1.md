@@ -4,6 +4,7 @@ mathjax: true
 permalink: /assignments/doc/assignment1/
 --- -->
 
+
 Get the code as a zip file [here](https://github.com/compsci589-summer24/compsci589-summer24.github.io/raw/main/pages/assignments/lib/assignment1_cs589.zip). 
 
 - [Setup](#setup)
@@ -16,7 +17,7 @@ Get the code as a zip file [here](https://github.com/compsci589-summer24/compsci
 
 ### [Setup](#setup)
 
-Please familiarize yourself with the [recommended workflow]({{site.baseurl}}/setup-instructions/#) before starting the assignment. 
+Please familiarize yourself with the [recommended workflow](https:/compsci589-summer24.github.io/pages/setup-instructions/#working-remotely-on-google-colaboratory) before starting the assignment. 
 
 The assignment would be using Python = 3.10
 
