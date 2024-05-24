@@ -5,8 +5,8 @@
 - [Setup](#setup)
 - [Goals](#goals)
 - [Q1: k-Nearest Neighbor classifier](#q1-k-nearest-neighbor-classifier-30-points)
-- [Q2: Training a Support Vector Machine](#q2-training-a-support-vector-machine)
-- [Q3: Implement a Softmax classifier](#q3-implement-a-softmax-classifier)
+- [Q2: Training a Support Vector Machine](#q2-training-a-support-vector-machine-35-points)
+- [Q3: Implement a Softmax classifier](#q3-implement-a-softmax-classifier-35-points)
 - [Submitting your work](#submitting-your-work)
 
 
