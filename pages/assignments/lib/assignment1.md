@@ -22,7 +22,7 @@ Once you have completed all Colab notebooks **except `collect_submission.ipynb`*
 
 
 **Colab:**
-If using colab, make a new folder, (ex. `cs682`) in google drive and upload the `assignment1` folder. After opening any notebook in colab you will need to uncomment and run the first code cell. This will mount google drive and cd into the `assignment1` directory. Do not forget to answer the inline questions. To write your response click on the text and then click the edit pencil icon that appears in the top right.
+If using colab, make a new folder, (ex. `cs589`) in google drive and upload the `assignment1` folder. After opening any notebook in colab you will need to uncomment and run the first code cell. This will mount google drive and cd into the `assignment1` directory. Do not forget to answer the inline questions. To write your response click on the text and then click the edit pencil icon that appears in the top right.
 
 **Download data:**
 Once you have the starter code, you will need to download the CIFAR-10 dataset.
@@ -30,7 +30,7 @@ Once you have the starter code, you will need to download the CIFAR-10 dataset.
 Inside a colab notebook (ex. `knn.ipynb`), you can create a new cell (`Insert -> Code cell`) and run the following:
 
 ```
-%cd ./cs682/datasets
+%cd ./cs589/datasets
 !bash get_datasets.sh
 %cd ../../
 ```
@@ -38,7 +38,7 @@ Inside a colab notebook (ex. `knn.ipynb`), you can create a new cell (`Insert ->
 Alternatively, on your local comptuer run the following from the `assignment1` directory:
 
 ```bash
-cd ./cs682/datasets
+cd ./cs589/datasets
 ./get_datasets.sh
 ```
 

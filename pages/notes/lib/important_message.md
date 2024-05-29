@@ -4,7 +4,7 @@ mathjax: true
 permalink: /notes/important_message/
 ---
 
-Welcome to 682!
+Welcome to 589!
 
 This class will teach you the core methods and principles behind the incredibly exciting revolution currently happening in the world of machine learning: the renaissance of deep neural networks.
 
