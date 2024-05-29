@@ -29,17 +29,29 @@ Once you have the starter code, you will need to download the CIFAR-10 dataset.
 
 Inside a colab notebook (ex. `knn.ipynb`), you can create a new cell (`Insert -> Code cell`) and run the following:
 
-```
-%cd ./cs589/datasets
+```bash
+cd ./cs589/datasets
 !bash get_datasets.sh
-%cd ../../
+cd ../../
 ```
 
 Alternatively, on your local comptuer run the following from the `assignment1` directory:
 
+**Mac & Linux**
 ```bash
 cd ./cs589/datasets
 ./get_datasets.sh
+```
+
+**Windows**
+
+You can either download it directly from this [link](http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) and unzip it to `cifar-10-batches-py` in your `assignment1/cs589/datasets` folder.
+
+Or, you can install it through your terminal with `bash` but this will be a lot more complicated. First, you need to install `bash` using [this guide](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3). Then, you can run the following command.
+
+```bash
+cd ./cs589/datasets
+bash get_datasets.sh
 ```
 
 **Jupyter Notebook:**
