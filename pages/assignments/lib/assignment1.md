@@ -35,7 +35,7 @@ cd ./cs589/datasets
 cd ../../
 ```
 
-Alternatively, on your local comptuer run the following from the `assignment1` directory:
+Alternatively, on your local computer run the following from the `assignment1` directory:
 
 **Mac & Linux**
 ```bash
