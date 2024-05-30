@@ -2,7 +2,7 @@
 📁 [Starter code](https://github.com/compsci589-summer24/compsci589-summer24.github.io/raw/main/pages/assignments/lib/assignment1_cs589.zip)
 
 ## Table of contents
-- [Setup](#setup)
+- [Setup](#setup) (please read this carefully)
 - [Goals](#goals)
 - [Q1: k-Nearest Neighbor classifier](#q1-k-nearest-neighbor-classifier-30-points)
 - [Q2: Training a Support Vector Machine](#q2-training-a-support-vector-machine-35-points)
