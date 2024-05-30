@@ -2,7 +2,7 @@
 📁 [Starter code](https://github.com/compsci589-summer24/compsci589-summer24.github.io/raw/main/pages/assignments/lib/assignment1_cs589.zip)
 
 ## Table of contents
-- [Setup](#setup)
+- [Setup](#setup) (please read this carefully)
 - [Goals](#goals)
 - [Q1: k-Nearest Neighbor classifier](#q1-k-nearest-neighbor-classifier-30-points)
 - [Q2: Training a Support Vector Machine](#q2-training-a-support-vector-machine-35-points)
@@ -20,32 +20,52 @@ The assignment would be using Python = 3.10
 
 Once you have completed all Colab notebooks **except `collect_submission.ipynb`**, proceed to the [submission instructions](#submitting-your-work).
 
+#### Colab
+If using colab, make a new folder, (ex. `cs589`) in Google Drive and upload the `assignment1` folder. Then, you right-click on any `.ipynb` file and click "Open with" → "Google Colaboratory".
 
-**Colab:**
-If using colab, make a new folder, (ex. `cs682`) in google drive and upload the `assignment1` folder. After opening any notebook in colab you will need to uncomment and run the first code cell. This will mount google drive and cd into the `assignment1` directory. Do not forget to answer the inline questions. To write your response click on the text and then click the edit pencil icon that appears in the top right.
+After opening any notebook in colab you will need to uncomment and run the first code cell. This will mount Google Drive, install all the datasets, and `cd` into the `assignment1` directory. You should be able to start then. If there is any problem, please feel free to ask us on Piazza.
 
-**Download data:**
+
+#### Running locally
+
+##### Downloading the datasets
 Once you have the starter code, you will need to download the CIFAR-10 dataset.
 
 Inside a colab notebook (ex. `knn.ipynb`), you can create a new cell (`Insert -> Code cell`) and run the following:
 
-```
-%cd ./cs682/datasets
-!bash get_datasets.sh
-%cd ../../
-```
-
-Alternatively, on your local comptuer run the following from the `assignment1` directory:
-
 ```bash
-cd ./cs682/datasets
+cd ./cs589/datasets
+!bash get_datasets.sh
+cd ../../
+```
+
+Alternatively, on your local computer run the following from the `assignment1` directory:
+
+###### Mac & Linux
+```bash
+cd ./cs589/datasets
 ./get_datasets.sh
 ```
 
-**Jupyter Notebook:**
+###### Windows
+
+You can either download it directly from this [link](http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) and unzip it to `cifar-10-batches-py` in your `assignment1/cs589/datasets` folder.
+
+Or, you can install it through your terminal with `bash` but this will be a lot more complicated. First, you need to install `bash` using [this guide](https://hackernoon.com/how-to-install-bash-on-windows-10-lqb73yj3). Then, you can run the following command.
+
+```bash
+cd ./cs589/datasets
+bash get_datasets.sh
+```
+
+#### Jupyter Notebook
 After you have the CIFAR-10 data, if you are not using colab you should start the Jupyter Notebook server from the
-`assignment1` directory. If you are unfamiliar with Jupyter, you should read our
+`assignment1` directory. You can do this in VSCode by downloading the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter). 
+
+If you are unfamiliar with Jupyter, you should read our
 [Jupyter tutorial](/pages/notes/doc/jupyter-tutorial.html).
+
+You can start the exercise by reading the instructions carefully and complete the **TODOs**. Do not forget to answer the inline questions. To write your response click on the text and then click the edit pencil icon that appears in the top right.
 
 **NOTE:** If you are working in a virtual environment on OSX, you may encounter
 errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). You can work around this issue by starting the Jupyter server using the `start_jupyter_osx.sh` script from the `assignment1` directory; the script assumes that your virtual environment is named `.env`.
