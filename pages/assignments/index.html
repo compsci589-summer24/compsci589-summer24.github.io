@@ -33,6 +33,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../../style.css" />
+    <script defer>
+      document.addEventListener("DOMContentLoaded", () => {
+        const projBtn = document.getElementById("proj-btn");
+        const projSlide = document.getElementById("proj-slide");
+
+        projBtn.addEventListener("click", () => {
+          projSlide.showModal();
+        });
+
+        projSlide.addEventListener("click", () => {
+          projSlide.close();
+        });
+      });
+    </script>
   </head>
   <body class="has-navbar-fixed-top">
     <!-- NAVBAR -->
@@ -88,6 +102,62 @@
           </tr>
         </tbody>
       </table>
+      <div class="mt-4">
+        <h3>Final project</h3>
+        <p>Please work in teams of 1-2 people</p>
+        <table class="table is-striped is-fullwidth">
+          <thead>
+            <tr>
+              <th>Parts</th>
+              <th>Due date</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <p>Proposal</p>
+              </td>
+              <td>June 5</td>
+              <td>
+                <div>A brief description your team, project, training and evaluation methods (200-400 words)</div>
+                <a href="http://cvpr2021.thecvf.com/sites/default/files/2020-09/cvpr2021AuthorKit_2.zip" class="text-indigo-400 hover:underline">Template</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Milestone</p>
+              </td>
+              <td>June 20</td>
+              <td>
+                <div>A detailed description with title, intro, problem statement, approach, and current (preliminary) results (2-3 pages)</div>
+                <a href="http://cvpr2021.thecvf.com/sites/default/files/2020-09/cvpr2021AuthorKit_2.zip" class="text-indigo-400 hover:underline">Template</a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>Final Write-up</p>
+              </td>
+              <td>July 3</td>
+              <td>
+                <div>A formal paper describing your project, training and evaluation processes, and results (6-7 pages)</div>
+                <a href="http://cvpr2021.thecvf.com/sites/default/files/2020-09/cvpr2021AuthorKit_2.zip" class="text-indigo-400 hover:underline">Template</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button id="proj-btn" class="button is-dark">
+          Open details
+        </button>
+        <dialog id="proj-slide" class="bg-transparent">
+          <div class="px-8 pt-4 pb-8 bg-gray-900 rounded-lg">
+            <div class="text-white text-xl font-semibold mb-4 hover:underline">
+              <a href="https://docs.google.com/presentation/d/1UxRytjtUZQFRq35xYRi8fFbmnQTl2wv-OeflkuDJJmc/edit?usp=sharing" target="_blank">Google Slides</a>
+            </div>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS0XGhNgF3TtwYh9fBqHdWcdtTu-RjCBz_L5KfmPL-Pu18qhpV6D03vrNIDyx4wpPfRzTqCWuA0PFAw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>
+        </dialog>
+      </div>
     </main>
 
     <!-- FOOTER -->
