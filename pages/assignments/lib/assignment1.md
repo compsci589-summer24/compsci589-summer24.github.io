@@ -1,5 +1,5 @@
 # Assignment 1
-📁 [Starter code](https://github.com/compsci589-summer24/compsci589-summer24.github.io/raw/main/pages/assignments/lib/assignment1_cs589.zip)
+📁 [Starter code](/pages/assignments/lib/assignment1_cs589.zip)
 
 ## Table of contents
 - [Setup](#setup) (please read this carefully)
