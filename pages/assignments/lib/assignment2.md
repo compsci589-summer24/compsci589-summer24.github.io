@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 2
 📁 [Starter code](/pages/assignments/lib/assignment2.zip)
 
 ## Table of contents
