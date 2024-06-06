@@ -23,7 +23,7 @@ Once you have completed all Colab notebooks **except `collect_submission.ipynb`*
 #### Colab
 If using colab, make a new folder, (ex. `cs589`) in Google Drive and upload the `assignment1` folder. Then, you right-click on any `.ipynb` file and click "Open with" → "Google Colaboratory".
 
-After opening any notebook in colab you will need to uncomment and run the first code cell. This will mount Google Drive, install all the datasets, and `cd` into the `assignment1` directory. You should be able to start then. If there is any problem, please feel free to ask us on Piazza.
+After opening any notebook in Colab you will need to uncomment and run the first code cell. This will mount Google Drive, install all the datasets, and `cd` into the `assignment1` directory. You should be able to start then. If there is any problem, please feel free to ask us on Piazza.
 
 
 #### Running locally
