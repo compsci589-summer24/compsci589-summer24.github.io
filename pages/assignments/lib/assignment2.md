@@ -66,7 +66,22 @@ The Notebook **random_forest.ipynb** will show you the hyperparameters you need 
 
 **Important**. Please make sure that the submitted notebooks have been run and the cell outputs are visible.
 
-Once you have completed all notebooks and filled out the necessary code, please export all your `.ipynb` files into PDF and merge them into one PDF to submit to Gradescope. I recommend using this [website](https://tools.pdf24.org/en/merge-pdf) for merging but you can use any tool you like.
+1. Select every files in the `assignment2` folder and compress them into a zip file. Your zip file should have the structure as below:
+
+```
+├── datasets
+│   ├── train.csv
+│   ├── test.csv
+├── decision_tree.ipynb
+├── naive_bayes.ipynb
+├── nn.ipynb
+├── random_forest.ipynb
+└── requirements.txt
+```
+
+If you run code on your local machine on Linux or macOS,  you can run the provided `collectSubmission.sh` script from `assignment1/` to produce a file `<UmassID>.zip`. Alternatively, in any colab notebook you can run the command `!bash collectSubmission.sh`. Make sure to rename the zip to `<UmassID>.zip`.
+
+2. Convert all notebooks (`.ipynb` files) into a single PDF file. In colab this can be done by selecting `File -> Print -> Print to PDF`. After that, erge them into one PDF to submit to Gradescope. I recommend using this [website](https://tools.pdf24.org/en/merge-pdf) for merging but you can use any tool you like.
 
 After that, submit the merged PDF file to Gradescope and assign each page to their corresponding question. You might lose points if there are missing pages assigned to the question so make sure you assign the pages correctly.
 
