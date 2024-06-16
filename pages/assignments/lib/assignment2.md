@@ -66,7 +66,7 @@ The Notebook **random_forest.ipynb** will show you the hyperparameters you need 
 
 **Important**. Please make sure that the submitted notebooks have been run and the cell outputs are visible.
 
-1. Select every files in the `assignment2` folder and compress them into a zip file. Your zip file should have the structure as below:
+1. Select every files in the `assignment2` folder and compress them into a zip file. Your zip file's contents should have the following structure:
 
 ```
 ├── datasets
