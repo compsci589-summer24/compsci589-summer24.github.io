@@ -79,10 +79,6 @@ The Notebook **random_forest.ipynb** will show you the hyperparameters you need 
 └── requirements.txt
 ```
 
-If you run code on your local machine on Linux or macOS,  you can run the provided `collectSubmission.sh` script from `assignment1/` to produce a file `<UmassID>.zip`. Alternatively, in any colab notebook you can run the command `!bash collectSubmission.sh`. Make sure to rename the zip to `<UmassID>.zip`.
-
-2. Convert all notebooks (`.ipynb` files) into a single PDF file. In colab this can be done by selecting `File -> Print -> Print to PDF`. After that, erge them into one PDF to submit to Gradescope. I recommend using this [website](https://tools.pdf24.org/en/merge-pdf) for merging but you can use any tool you like.
-
-After that, submit the merged PDF file to Gradescope and assign each page to their corresponding question. You might lose points if there are missing pages assigned to the question so make sure you assign the pages correctly.
+2. Convert all notebooks (`.ipynb` files) into a single PDF file. In colab this can be done by selecting `File -> Print -> Print to PDF`. After that, merge them into one PDF to submit to Gradescope. I recommend using this [website](https://tools.pdf24.org/en/merge-pdf) for merging but you can use any tool you like. Submit the merged PDF file to Gradescope and assign each page to their corresponding question. You might lose points if there are missing pages assigned to the question so make sure you assign the pages correctly.
 
 If you have any question, please feel free to message us on Piazza. Thanks for your time!
